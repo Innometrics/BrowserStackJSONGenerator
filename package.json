@@ -1,0 +1,13 @@
+{
+	"name": "BrowserStackJSONGenerator",
+	"version": "0.0.1",
+	"description": "A LiveScript app downloading browserstack list of browser and making a sane subset",
+	"dependencies": {
+		"LiveScript": "1.2.x",
+		"lson": "*",
+		"request": "*",
+		"prelude-ls": "*",
+		"mkdirp": "*"
+	},
+	"engine": "node >=0.10.x"
+}

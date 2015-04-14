@@ -1,0 +1,19 @@
+only:
+  os:
+    firefox: [\3.6, "MIN", "MAX"]
+    chrome: ["MIN", "MAX"]
+    opera: ["MAX"],
+    ie: ["MIN", "MAX"]
+    safari: ["MAX"]
+remove:
+  ios:[
+    * device: "iPhone 5C"
+    ]
+  android: [
+    * device: "HTC One X",
+    * device: "Motorola Razr"
+    ]
+splitOSInVersion:[
+  "Windows",
+  "OS X"
+]

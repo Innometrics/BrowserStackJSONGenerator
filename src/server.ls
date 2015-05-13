@@ -25,7 +25,7 @@ fileGenerator = (tree) ->
     for own let key, browsersArr of browsers
       tempArr := tempArr.concat browsersArr
     # split the browser in different files
-    fs.writeFile (\files/ + os + \.json), (JSON.stringify tempArr, null, 2)
+    fs.writeFile (\files/ + os.replace(\., \-) + \.json), (JSON.stringify tempArr, null, 2)
     tree[os] = tempArr
 
   # One massive file wit all browsers
